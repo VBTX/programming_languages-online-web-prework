@@ -8,5 +8,5 @@ def reformat_languages(languages)
       end
       new_hash[:javascript][:style] << :oo
       end
-      puts new_hash
+      return new_hash
       end
